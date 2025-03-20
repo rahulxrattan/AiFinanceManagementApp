@@ -1,4 +1,4 @@
-### AI FINANCE PLATFORM to manage expenses and shine out your resume in crowd
+### AI FINANCE PLATFORM to manage expenses with the power of AI with daily and monthly insights directly to Email
 ### Make sure to create a `.env` file with following variables -
 
 ```
@@ -18,3 +18,4 @@ RESEND_API_KEY=
 
 ARCJET_KEY=
 ```
+### Made with  💗 by Rahul
