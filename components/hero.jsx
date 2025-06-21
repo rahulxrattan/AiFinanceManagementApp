@@ -40,7 +40,7 @@ const HeroSection = () => {
           </Link>
           <Link href="https://github.com/rahulxrattan">
             <Button size="lg" variant="outline" className="px-8">
-              Watch Demo
+              Source code
             </Button>
           </Link>
         </div>
