@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Sparkles } from "lucide-react";
 
 const HeroSection = () => {
   const imageRef = useRef(null);
@@ -28,8 +29,9 @@ const HeroSection = () => {
 
   return (
     <section className="pt-40 pb-20 px-4">
+     
       <div className="container mx-auto text-center">
-      <h1 className="text-6xl md:text-6xl lg:text-[80px] pb-6 gradient-title ">Manage Your Finances<br  />With Intelligence</h1>
+      <h1 className="text-6xl md:text-6xl lg:text-[80px] pb-6 gradient-title ">Manage Your Expenses<br  />With Intelligence</h1>
       <p className="max-w-3xl mx-auto text-center text-lg text-gray-600 mb-8 ">An AI-Powered financial management platforms that helps you track, 
       analyze and optimize your spending with real-time insights.</p>
         <div className="flex justify-center space-x-4">
@@ -58,6 +60,9 @@ const HeroSection = () => {
         </div>
       </div>
     </section>
+
+
+
   );
 };
 

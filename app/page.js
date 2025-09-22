@@ -37,11 +37,11 @@ const LandingPage = () => {
       <section id="features" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Everything you need to manage your finances
+            Everything you need to manage your Expenses
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuresData.map((feature, index) => (
-              <Card className="p-6" key={index}>
+              <Card className="p-6 border border-transparent hover:border-black transition duration-300"  key={index}>
                 <CardContent className="space-y-4 pt-4">
                   {feature.icon}
                   <h3 className="text-xl font-semibold">{feature.title}</h3>
@@ -111,7 +111,7 @@ const LandingPage = () => {
             Ready to Take Control of Your Finances?
           </h2>
           <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of users who are already managing their finances
+            Join thousands of users who are already managing their Expenses
             smarter with Rahul
           </p>
           <Link href="/dashboard">

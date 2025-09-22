@@ -1,4 +1,4 @@
-### AI FINANCE PLATFORM to manage expenses with the power of AI with daily and monthly insights directly to Email
+### AI Expense PLATFORM to manage expenses with the power of AI with daily and monthly insights directly to Email
 ### Make sure to create a `.env` file with following variables -
 
 ```

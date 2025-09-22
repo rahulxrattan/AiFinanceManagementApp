@@ -104,7 +104,7 @@ export default function EmailTemplate({
       {/* AI Insights */}
       {data?.insights && (
         <Section style={styles.section}>
-          <Heading style={styles.heading}>Finance Insights</Heading>
+          <Heading style={styles.heading}>Expense Insights</Heading>
           {data.insights.map((insight, index) => (
             <Text key={index} style={styles.text}>
               • {insight}
